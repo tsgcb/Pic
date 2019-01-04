@@ -5,7 +5,7 @@ function FindProxyForURL(url,host)
        || shExpMatch(host,"*community*")  || shExpMatch(host,"*cloudfront*")  || shExpMatch(host,"*gstatic*")
        || shExpMatch(host,"*youtube*")  || shExpMatch(host,"*ytimg*")  || shExpMatch(host,"*ggpht*")
         || shExpMatch(host,"*medium*") || shExpMatch(host,"*gist*") || shExpMatch(host,"*githubassets*")
-      || shExpMatch(host,"*nytime*"))
+      || shExpMatch(host,"*nytime*") || shExpMatch(host,"*appledaily*"))
     {
         return "HTTPS tun.diaoqiang.top:443";
     }

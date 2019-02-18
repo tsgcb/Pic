@@ -7,7 +7,7 @@ function FindProxyForURL(url,host)
         || shExpMatch(host,"*medium*") || shExpMatch(host,"*gist*") || shExpMatch(host,"*githubassets*")
       || shExpMatch(host,"*nytime*") || shExpMatch(host,"*appledaily*")|| shExpMatch(host,"*theinitium*")
       || shExpMatch(host,"*komica*")|| shExpMatch(host,"*sourceforge*")|| shExpMatch(host,"*chromium*")
-      || shExpMatch(host,"forums.e-hentai.org"))
+      || shExpMatch(host,"forums.e-hentai.org") || shExpMatch(host,"*rfi*"))
     {
         return "HTTPS tun.diaoqiang.top:443";
     }

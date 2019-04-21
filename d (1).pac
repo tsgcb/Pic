@@ -8,7 +8,8 @@ function FindProxyForURL(url,host)
       || shExpMatch(host,"*nytime*") || shExpMatch(host,"*appledaily*")|| shExpMatch(host,"*theinitium*")
       || shExpMatch(host,"*komica*")|| shExpMatch(host,"*sourceforge*")|| shExpMatch(host,"*chromium*")
       || shExpMatch(host,"forums\.e-hentai\.org") || shExpMatch(host,"*rfi*") || shExpMatch(host,"zh\.wikipedia\.org")
-       || shExpMatch(host,"*\.pin*") || shExpMatch(host,"*facebook*") || shExpMatch(host,"*appspot*"))
+       || shExpMatch(host,"*\.pin*") || shExpMatch(host,"*facebook*") || shExpMatch(host,"*appspot*")
+       || shExpMatch(host,"*fbcdn*"))
     {
         return "HTTPS tun.diaoqiang.top:443";
     }

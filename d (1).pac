@@ -7,7 +7,7 @@ function FindProxyForURL(url,host)
         || shExpMatch(host,"*medium*") || shExpMatch(host,"*gist*") || shExpMatch(host,"*githubassets*")
       || shExpMatch(host,"*nytime*") || shExpMatch(host,"*appledaily*")|| shExpMatch(host,"*theinitium*")
       || shExpMatch(host,"*komica*")|| shExpMatch(host,"*sourceforge*")|| shExpMatch(host,"*chromium*")
-      || shExpMatch(host,"forums\.e-hentai\.org") || shExpMatch(host,"*rfi*") || shExpMatch(host,"zh\.wikipedia\.org")
+      || shExpMatch(host,"forums\.e-hentai\.org") || shExpMatch(host,"*rfi*") || shExpMatch(host,"*wikipedia\.org")
        || shExpMatch(host,"*\.pin*") || shExpMatch(host,"*facebook*") || shExpMatch(host,"*appspot*")
        || shExpMatch(host,"*fbcdn*") || shExpMatch(host,"*rawgit*") || shExpMatch(host,"*gvt2*"))
     {

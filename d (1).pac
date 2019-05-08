@@ -9,7 +9,7 @@ function FindProxyForURL(url,host)
       || shExpMatch(host,"*komica*")|| shExpMatch(host,"*sourceforge*")|| shExpMatch(host,"*chromium*")
       || shExpMatch(host,"forums\.e-hentai\.org") || shExpMatch(host,"*rfi*") || shExpMatch(host,"*wikipedia\.org")
        || shExpMatch(host,"*\.pin*") || shExpMatch(host,"*facebook*") || shExpMatch(host,"*appspot*")
-       || shExpMatch(host,"*fbcdn*")  || shExpMatch(host,"acg\.rip") )
+       || shExpMatch(host,"*fbcdn*")  || shExpMatch(host,"acg\.rip")   || shExpMatch(host,"*9gag*"))
     {
         return "HTTPS tun.diaoqiang.top:443";
     }

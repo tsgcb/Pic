@@ -15,7 +15,7 @@ function FindProxyForURL(url,host)
        || shExpMatch(host,"*reuters*")|| shExpMatch(host,"*lithium\.com")|| shExpMatch(host,"*pornhub\.com")
       || shExpMatch(host,"*phncdn*"))
     {
-        return "HTTPS tun.diaoqiang.top:443";
+        return "HTTPS tun.diaoqiang.top:3128";
     }
     return "DIRECT";
 }

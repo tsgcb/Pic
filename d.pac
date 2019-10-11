@@ -13,7 +13,7 @@ function FindProxyForURL(url,host)
         || shExpMatch(host,"*lantern*") || shExpMatch(host,"*bbc*") || shExpMatch(host,"*amazonaws*")
        || shExpMatch(host,"*scmp*") || shExpMatch(host,"*github\.io") || shExpMatch(host,"*theguardian*")
        || shExpMatch(host,"*reuters*")|| shExpMatch(host,"*lithium\.com")|| shExpMatch(host,"*pornhub\.com")
-      || shExpMatch(host,"*phncdn*"))
+      )
     {
         return "HTTPS tun.diaoqiang.top:3128";
     }

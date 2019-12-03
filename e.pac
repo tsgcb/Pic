@@ -1,5 +1,5 @@
 function FindProxyForURL(url,host)
 {
     
-    return "DIRECT;HTTPS tun.diaoqiang.top:443";
+    return "HTTPS tun.diaoqiang.top:443";
 }
